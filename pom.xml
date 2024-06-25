@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.curso</groupId>
+    <artifactId>formacionSpringBatch</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!-- En eclipse esto no lo pone en automático. Añadirlo manualmente -->
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source> <!-- Configuración para el plugin de compilación -->
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> <!-- Configuración para el plugin de resources -->
+    </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-batch -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-batch</artifactId>
+            <version>2.7.18</version>
+        </dependency>
+        <!-- Esto me da un huevo de dependencias... todas las que necesito para trabajar con Spring Batch -->
+        <!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>2.2.224</version>
+            <!--scope>test</scope De momento le comentamos esto... Si no, no se usará cuando corramos la app-->
+        </dependency>
+        <!-- Base de datos en memoria para hacer pruebas y poder ir desarrollando -->
+    </dependencies>
+
+
+</project>
