@@ -344,37 +344,37 @@ En la empresa definiremos una estructura.. a la cual me adaptaré.
 Yo en curso voy a usar una que a mi me parece guay... pero a alguien le parecerá una mierda. Sobre gustos no hay nada escrito.
 
 proyecto/
-src/
-main/
-java/
-paquete/
-jobs/
-job1/
-listeners/
-IJob1Listener.java
-Job1Listener.java
-mappers/
-steps/
-step1/
-listener/
-IProcess1Listener.java
-Process1Listener.java
-reader/
-IEscritorStep1.java
-EscritorStep1.java
-processor/
-IProcesadorStep1.java
-ProcesadorStep1.java
-writer/
-IEscritorStep1.java
-EscritorStep1.java
-IStep1.java
-Step1.java
-Job1.java
-models/
-PersonaIn.java
-PersonaOut.java
-MiAplicacion.java... este no hace na' Solo le dice a SpringBatch que busque lo que hay por aquí!
+    src/
+        main/
+            java/
+                paquete/
+                    jobs/
+                        job1/
+                            listeners/
+                                IJob1Listener.java
+                                Job1Listener.java
+                            mappers/
+                            steps/
+                                step1/
+                                    listener/
+                                        IProcess1Listener.java
+                                        Process1Listener.java
+                                    reader/
+                                        IEscritorStep1.java
+                                        EscritorStep1.java
+                                    processor/
+                                        IProcesadorStep1.java
+                                        ProcesadorStep1.java
+                                    writer/
+                                        IEscritorStep1.java
+                                        EscritorStep1.java
+                                    IStep1.java
+                                    Step1.java
+                            Job1.java
+                models/
+                    PersonaIn.java
+                    PersonaOut.java
+                MiAplicacion.java... este no hace na' Solo le dice a SpringBatch que busque lo que hay por aquí!
 
 Mi app tendrá distintos tipos de componentes:
 Jobs

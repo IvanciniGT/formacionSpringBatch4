@@ -31,6 +31,14 @@
             <!--scope>test</scope De momento le comentamos esto... Si no, no se usará cuando corramos la app-->
         </dependency>
         <!-- Base de datos en memoria para hacer pruebas y poder ir desarrollando -->
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.32</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- Para poder usar anotaciones de Lombok, para evitarnos la mierda de los getters y setters -->
     </dependencies>
 
 

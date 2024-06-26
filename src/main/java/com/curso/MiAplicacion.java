@@ -1,5 +1,6 @@
 package com.curso;
 
+import com.curso.models.PersonaIn;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -17,6 +18,7 @@ public class MiAplicacion {
         // YA TENGO MI APP montada.
         // Esto no es por ser un curso.. Que realmente este to do el código que voy a meter.. es lo que voy a hacer en la vida real.
         // Solo me queda explicarle a Spring en qué consiste mi app. Qué tiene? Y YA !
+
     }
 
 }
