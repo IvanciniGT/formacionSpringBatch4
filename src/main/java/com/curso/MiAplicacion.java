@@ -1,6 +1,5 @@
 package com.curso;
 
-import com.curso.models.PersonaIn;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
