@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 // El problema es que Spring no se ha enterado aún, que estoy montando una aplicación SpringBatch.
 // Se lo hemos dicho por algún sitio? NO... vamos a decirselo:
 @EnableBatchProcessing // Que esta es una app SpringBatch
+//@ActiveProfiles("Español") // Le digo a Spring que cuando arranque mi app, cargue el perfil dev
 public class MiAplicacion {
 
     public static void main(String[] args) {

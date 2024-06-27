@@ -4,6 +4,7 @@ import com.curso.models.PersonaIn;
 import org.springframework.batch.item.ItemReader;
 import org.springframework.batch.item.file.builder.FlatFileItemReaderBuilder;
 import org.springframework.batch.item.file.mapping.FieldSetMapper;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -23,6 +24,7 @@ public class LectorStep1 {
     // Spring, invoca tu a esta función...
     // Y si ves que alguien luego pide un ItemReader<PersonaIn>... pues le das lo que esta función te haya devuelto.
     @Bean                            // Función, ala que podría haber llamado Felipe!
+    @Qualifier("JOB1_STEP1")
     public ItemReader<PersonaIn> configurarMiItemReaderDelStep1(
             FieldSetMapper<PersonaIn> mapeador
     ) {
