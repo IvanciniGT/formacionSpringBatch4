@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 
 @RequiredArgsConstructor
 @Component
+// Spring, crea una instancia de esta clase... y si alguien me pide un IProcesadorStep1... se la das.
 public class ProcesadorStep1 implements IProcesadorStep1 {
 
     private final IValidacionesPersona validador;
