@@ -1,4 +1,7 @@
 package com.curso.jobs.job1.steps.step1.writer;
 
-public interface IEscritorStep1 {
+import com.curso.models.PersonaOut;
+import org.springframework.batch.item.ItemWriter;
+
+public interface IEscritorStep1 extends ItemWriter<PersonaOut> {
 }
